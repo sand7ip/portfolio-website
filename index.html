@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sandip Ghosh</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sandip Ghosh</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Services</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Sandip Ghosh profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sandip Ghosh</h1>
+        <p class="section__text__p2">Data Science Manager</p>
+        <p class="section__text__p3">10 years Machine Learning and AI Application building experience with various MNCs</p>
+<!--
+        <div id="company-logo-container">
+            <img
+              src="./assets/iqvia-logo.png"
+              alt="Iqvia"
+              class="icon"
+            />
+            <img
+            src="./assets/jnj-logo.png"
+            alt="Jnj"
+            class="icon"
+            />
+            <img
+            src="./assets/cognizant-logo.png"
+            alt="Cognizant"
+            class="icon"
+            />
+            <img
+            src="./assets/infosys-logo.png"
+            alt="Infosys"
+            class="icon"
+            />
+        </div>  
+-->
+        <div class="btn-container">
+         
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <!--
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sandip-ghosh-11a76132/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+        --> 
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>10 years <br />Data Science</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>MBA IMT-Ghaziabad<br />B.Tech IEM-Kolkata</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                
+                Welcome! I'm Sandip Ghosh, with a decade in Data Science and AI, where I've navigated through complex
+                data challenges, transforming them into actionable insights. Beyond my professional endeavors, I've pursued a keen interest in career counseling and teaching, serving as an adjunct professor with esteemed platforms like Scaler and UpGrad.
+                
+                <br/><br/>
+           
+                My expertise? Empowering you through personalized consultation, standout resume building,
+                 and mock interviews that mirror real-world scenarios. I understand the journey from aspiring
+                  data scientist to industry expert because I've lived it. 
+                    Let's unlock your potential together and transform your career aspirations into tangible successes."
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Predictive Modelling</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Deep Learning</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Project Management</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Generative AI</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Cloud Computing</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AI Solution Architect</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Projects</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Disease Detection</h3>
+                  <p>IQVIA</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Generative AI Platform</h3>
+                  <p>IQVIA</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Review Topic Modelling</h3>
+                  <p>Johnson & Johnson</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Patient Journey</h3>
+                  <p>Cognizant</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Available</p>
+      <h1 class="title">Services</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Career Counselling</h2>
+            <div id="detailsPopup-1" class="popup" style="display: none;">
+                <div class="popup-content">
+                  <span class="close" onclick="document.getElementById('detailsPopup-1').style.display='none'">&times;</span>
+                  <h3>1 hour Session</h3>
+                  <br/>
+                  <h4>Stuck in career, looking for the next progression or the switch in AI? </h4>
+                  <br/>
+                  <p>This is what you are looking for, fill out a form and book your slot for a 1 hour 1-on-1 GoogleMeet session. </p>
+                  <br/>
+                  <p>You'll receive detailed feedback with a 3-step strategy plan, topic guidance, and an extensive roadmap for your career progression.</p>
+                  <!--<button class="btn btn-color-2" onclick="document.getElementById('detailsPopup').style.display='none'">Back</button>-->
+                </div>
+              </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="document.getElementById('detailsPopup-1').style.display='block'"
+              >
+                Details
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./#contact'"
+              >
+                Book Session
+                
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Resume <br> Building</h2>
+            <div id="detailsPopup-2" class="popup" style="display: none;">
+                <div class="popup-content">
+                  <span class="close" onclick="document.getElementById('detailsPopup-2').style.display='none'">&times;</span>
+                  <h3>45 mins Session</h3>
+                  <br/>
+                  <h4>Want to switch to your next role in Data Science, but not getting interview calls? </h4>
+                  <br/>
+                  <p>This is what you are looking for, fill out a form, upload resume and book your slot for a 45 mins 1-on-1 GoogleMeet session. </p>
+                  <br/>
+                  <p>You'll receive detailed feedback on your current resume and currated tips to improve your chance of getting calls.</p>
+                  <!--<button class="btn btn-color-2" onclick="document.getElementById('detailsPopup').style.display='none'">Back</button>-->
+                </div>
+              </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="document.getElementById('detailsPopup-2').style.display='block'"
+              >
+                Details
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./#contact'""
+              >
+                Book Session
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Mock <br>Interview</h2>
+            <div id="detailsPopup-3" class="popup" style="display: none;">
+                <div class="popup-content">
+                  <span class="close" onclick="document.getElementById('detailsPopup-3').style.display='none'">&times;</span>
+                  <h3>1 hour Session</h3>
+                  <br/>
+                  <h4>Not able to convert the interviews for Machine Learning role in your dream company? </h4>
+                  <br/>
+                  <p>This is what you are looking for, fill out a form, upload resume and book your slot for a 1 hour 1-on-1 GoogleMeet session. </p>
+                  <br/>
+                  <p>You'll participate in a technical mock interview for the role you are preparing and get a detailed feedback on your strength and weekness.</p>
+                  <!--<button class="btn btn-color-2" onclick="document.getElementById('detailsPopup').style.display='none'">Back</button>-->
+                </div>
+              </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="document.getElementById('detailsPopup-3').style.display='block'"
+              >
+                Details
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./#contact'"
+              >
+                Book Session
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:sand7ip@gmail.com">sand7ip@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sandip-ghosh-11a76132/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Sandip Ghosh. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
