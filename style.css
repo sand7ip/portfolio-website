@@ -434,7 +434,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 90vh;
 }
 
 .contact-info-upper-container {
@@ -471,7 +471,7 @@ article .icon {
 
 .contact-inputs{
     display: flex;
-    width: 400px;
+    width: 270px;
     height: 50px;
   
     outline: none;
@@ -479,6 +479,7 @@ article .icon {
     font-weight: 500;
     
     border-radius: 15px;
+    
     }
 .contact-info-container textarea{
     
@@ -497,7 +498,8 @@ article .icon {
 .contact-info-container button{
     display: flex;
     align-items: center;
-    padding: 15px 30px; font-size: 16px;
+    padding: 15px 30px; 
+    font-size: 16px;
     color:#fff;
     gap: 10px;
     border: none;
@@ -509,7 +511,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 30vh;
   margin: 0 1rem;
 }
 
